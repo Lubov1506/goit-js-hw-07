@@ -18,7 +18,7 @@ const showInfo = categoriesChildren => {
   categoriesChildren
     .map(elem => Array.from(elem.children))
     .forEach(el => {
-      console.log(`Category: ${el[0].textContent} ${el[1].children.length}`);
+      console.log(`Category: ${el[0].textContent}`);
       console.log(`Elements:  ${el[1].children.length}`);
     });
 };
@@ -31,7 +31,7 @@ showInfo(categoriesChildren);
 //   categoriesChildren
 //     .map(elem => Array.from(elem.children))
 //     .forEach(el => {
-//       info += `\nCategory: ${el[0].innerText} ${el[1].children.length} \nElements:  ${el[1].children.length}`;
+//       info += `\nCategory: ${el[0].innerText} \nElements:  ${el[1].children.length}`;
 //     });
 //   return info;
 // };
