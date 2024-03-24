@@ -123,6 +123,15 @@ button {
   color: #2e2f42;
   outline: transparent;
   background-color: inherit;
+
+  transition: border-color 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#name-input:hover,
+#name-input:focus {
+  border: 1px solid #000;
+}
+#name-input:active {
+  border: 1px solid #808080;
 }
 #name-input,
 #name-input::placeholder {
@@ -156,8 +165,16 @@ button {
   border-radius: 4px;
   background-color: inherit;
   outline: transparent;
-}
 
+  transition: border-color 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.login-form input:hover,
+.login-form input:focus {
+  border: 1px solid #000;
+}
+.login-form input:active {
+  border: 1px solid #808080;
+}
 .login-form > button {
   margin-top: 16px;
   align-self: start;
@@ -184,9 +201,12 @@ button {
   text-align: center;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.50;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
 /* #endregion task5 */
 
+/* #region task6 */
+
+/* #endregion task6 */
