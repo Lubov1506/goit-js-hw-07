@@ -38,7 +38,6 @@ const createBoxes = amount => {
     }
     box.style.backgroundColor = getRandomHexColor();
     fragment.appendChild(box);
-    console.log(box);
   }
   boxes.append(fragment);
 };
